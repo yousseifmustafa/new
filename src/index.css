@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+    background: #F9FAFB;
+}
+
+
+.active{
+    /* padding-bottom:2px ; */
+    /* border-bottom: 4px dashed black ; */
+    font-weight:bold ;
+    color: #fa9a5b;
+}
+
+.mainFont{
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+
+.bg-main{
+    background-color: #fa9a5b;
+}
+.text-main{
+    color: #fa9a5b;
+}
